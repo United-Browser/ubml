@@ -1,7 +1,4 @@
-# ubml-parser
-A simple parser for United Basic Markup Language (UBML).
-
-# United Basic Markup Language (UBML) Specification [DRAFT]
+# United Basic Markup Language (UBML) Specification
 
 ## 1. Introduction
 
