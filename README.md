@@ -14,14 +14,14 @@ Elements are defined using the equal sign (=) followed by the element name and a
 
 This structure breaks down as follows:
 
-- element: The name of the element, such as =text, =head1, or =image.
+- element: The name of the element, such as =text, =h1, or =image.
 - [:attribute] (optional): An optional attribute for the element, such as :c++ or :php for =code elements.
 - [data] (optional): The data associated with the element, which could be parameters, content, or both, depending on the specific element. This section may span multiple lines.
 
 A few examples to quickly grasp the concept of the United Basic Markup Language:
 
 ```ubml
-=head1 A heading
+=h1 A heading
 =text Some text content.
 =image ntd://smfw2f923jf80 An image with this caption
 =code:js console.log('Hello World')
@@ -59,20 +59,20 @@ Basic text block that allows you to write paragraphs and inline text. It support
 
 These basic markdown formatting options can be used within the [content] section of the =text element to style the text as needed. Remember that the [content] section can span multiple lines, if needed.
 
-#### `=head1 [header_text]`
-The =head1 element is used to create the largest heading in your UBML document. It is typically used for main titles and section headers. The [header_text] is the content of the heading and can be any text you wish to display.
+#### `=h1 [header_text]`
+The =h1 element is used to create the largest heading in your UBML document. It is typically used for main titles and section headers. The [header_text] is the content of the heading and can be any text you wish to display.
 
-#### `=head2 [header_text]`
-The =head2 element is used to create a large heading in your UBML document. It is typically used for subheadings within main sections. The [header_text] is the content of the heading and can be any text you wish to display.
+#### `=h2 [header_text]`
+The =h2 element is used to create a large heading in your UBML document. It is typically used for subheadings within main sections. The [header_text] is the content of the heading and can be any text you wish to display.
 
-#### `=head3 [header_text]`
-The =head3 element is used to create a medium-sized heading in your UBML document. It is typically used for subheadings within subsections. The [header_text] is the content of the heading and can be any text you wish to display.
+#### `=h3 [header_text]`
+The =h3 element is used to create a medium-sized heading in your UBML document. It is typically used for subheadings within subsections. The [header_text] is the content of the heading and can be any text you wish to display.
 
-#### `=head4 [header_text]`
-The =head4 element is used to create a small heading in your UBML document. It is typically used for subheadings within smaller sections or for emphasizing specific topics. The [header_text] is the content of the heading and can be any text you wish to display.
+#### `=h4 [header_text]`
+The =h4 element is used to create a small heading in your UBML document. It is typically used for subheadings within smaller sections or for emphasizing specific topics. The [header_text] is the content of the heading and can be any text you wish to display.
 
-#### `=head5 [header_text]`
-The =head5 element is used to create the smallest heading in your UBML document. It is typically used for the least important subheadings or for further emphasis on specific topics. The [header_text] is the content of the heading and can be any text you wish to display.
+#### `=h5 [header_text]`
+The =h5 element is used to create the smallest heading in your UBML document. It is typically used for the least important subheadings or for further emphasis on specific topics. The [header_text] is the content of the heading and can be any text you wish to display.
 
 #### `=list [list_items]`
 The =list element is used to create unordered or ordered lists in your UBML document. The [list_items] is the content of the list. To create an unordered list, start each list item on a new line with a hyphen (-) followed by a space. To create an ordered list, start each list item on a new line with a number followed by a period (1.) and a space.
@@ -115,4 +115,3 @@ The =// element is used to add a comment to your UBML document. The [comment] is
 
 #### `\\=[escaped_element]`
 Any character that precedes an element on the same line prevents the element from being rendered. However, to explicitly escape elements, the `\=` syntax is recommended.
-
