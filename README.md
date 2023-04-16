@@ -35,7 +35,7 @@ Some elements, such as image, video, audio and embed, can take multiple lines of
 
 These elements contain information about the UBML page.
 
-#### `=UBML [version]`
+#### `=ubml [version]`
 UBML page declaration/version.
 
 #### `=title [title_text]`
