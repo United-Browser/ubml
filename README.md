@@ -1,4 +1,4 @@
-# United Basic Markup Language (UBML) Specification
+# United Basic Markup Language (UBML) specification
 
 ## 1. Introduction
 
